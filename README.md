@@ -1,6 +1,9 @@
 async-httpclient
 ================
 简易httpclient 实现，post、get请求服务端接口，文件下载取消等操作,网络不好的清空下自动重发请求
+
+## 只是将封装的类放到github上了，拷贝到工程中修改包名即可
+
 参数可以通过RequestParam 封装，主要参考的是loopj的实现
 
     HttpUtil.get("http://www.baidu.com", new 
